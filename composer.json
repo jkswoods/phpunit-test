@@ -1,0 +1,24 @@
+{
+    "name": "jkswoods/testing-phpunit",
+    "description": "Testing PHPUnit",
+    "type": "library",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleLibrary\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ExampleLibrary\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
+    }
+}

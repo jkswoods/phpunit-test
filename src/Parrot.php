@@ -8,9 +8,9 @@ class Parrot
     /**
      * Let the parrot speak.
      * 
-     * Returns a passed string.
-     * 
      * @param String $var
+     * 
+     * @return String
      */
     public function talk(String $var)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleLibrary;
+namespace ParrotLibrary;
 
 class Parrot
 {

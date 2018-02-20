@@ -8,12 +8,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ExampleLibrary\\": "src/"
+            "ParrotLibrary\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ExampleLibrary\\Tests\\": "tests/"
+            "ParrotLibrary\\Tests\\": "tests/"
         }
     },
     "scripts": {

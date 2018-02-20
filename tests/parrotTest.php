@@ -1,9 +1,9 @@
 <?php
 
-namespace ExampleLibrary\Tests;
+namespace ParrotLibrary\Tests;
 
 use PHPUnit\Framework\TestCase;
-use ExampleLibrary\Parrot;
+use ParrotLibrary\Parrot;
 
 class parrotTest extends TestCase
 {
